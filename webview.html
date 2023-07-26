@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Recordings</title>
+</head>
+<body>
+
+  <form id="dateForm">
+    <label for="from">From:</label>
+    <input type="date" id="from" required>
+
+    <label for="to">To:</label>
+    <input type="date" id="to" required>
+
+    <!-- <button type="submit" onclick="{(event)=>fetchRecordings(event)}">Fetch Recordings</button> -->
+    <button type="submit">Fetch Recordings</button>
+  </form>
+
+  <select id="dropdown" disabled></select>
+  <button id="sendButton" disabled>Send</button>
+  <script src="recordings.js" nonce="${nonce}"></script>
+
+</body>
+</html>
